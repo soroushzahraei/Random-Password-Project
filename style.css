@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1b4b;
+}
+
+.kol{
+    position: relative;
+    width: 600px;
+    height: 400px;
+   
+}
+
+.matn{
+    font-size: 40px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    color: white;
+}
+
+.matn span{
+    border-bottom: 2px solid green ;
+    color: green;
+    padding-bottom: 10px;
+}
+
+.box{
+    
+    height: 58px;
+}
+
+.box input{
+    height: 58px;
+    width: 100%;
+    font-size: 20px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.box i{
+    position: absolute;
+    font-size: 30px;
+    color: green;
+    left: 4%;
+     top: 46%;
+     font-style: unset;
+     cursor: pointer;
+}
+
+#btn{
+    height: 50px;
+    width: 30%;
+    margin-top: 7%;
+    background-color: green;
+    color: white;
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+}
